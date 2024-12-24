@@ -1,0 +1,265 @@
+Google Tech Writing Part 1
+
+
+Summary:
+
+* Use terms consistently.
+* Avoid ambiguous pronouns.
+* Prefer active voice to passive voice.
+* Pick specific verbs over vague ones.
+* Focus each sentence on a single idea.
+* Convert some long sentences to lists.
+* Eliminate unneeded words.
+* Use a numbered list when ordering is important and a bulleted list when ordering is irrelevant.
+* Keep list items parallel.
+* Start numbered list items with imperative words.
+* Introduce lists and tables appropriately.
+* Create great opening sentences that establish a paragraph's central point.
+* Focus each paragraph on a single topic.
+* Determine what your audience needs to learn.
+* Fit documentation to your audience.
+* Establish your document's key points at the start of the document.
+
+
+—————————————————————
+
+
+Define new or unfamiliar terms
+When writing or editing, learn to recognize terms that might be unfamiliar to some or all of your target audience. When you spot such a term, take one of the following two tactics:
+* If the term already exists, link to a good existing explanation. (Don't reinvent the wheel.)
+* If your document is introducing the term, define the term. If your document is introducing many terms, collect the definitions into a glossary.
+
+
+Use acronyms properly
+On the initial use of an unfamiliar acronym within a document or a section, spell out the full term, and then put the acronym in parentheses. Put both the spelled-out version and the acronym in boldface.  For example:
+This document is for engineers who are new to the Telekinetic Tactile Network (TTN) or need to understand how to order TTN replacement parts through finger motions.
+
+Do not cycle back-and-forth between the acronym and the expanded version in the same document.
+
+
+Use the acronym or the full term?
+Here are the guidelines for acronyms:
+* Don't define acronyms that would only be used a few times.
+* Do define acronyms that meet both of the following criteria:
+    * The acronym is significantly shorter than the full term.
+    * The acronym appears many times in the document.
+
+
+Avoid ambiguous pronouns
+Be clear and avoid ambiguous references like this:
+	“Python is interpreted, while C++ is compiled. It has an almost cult-like following.”
+It’s not clear what ‘it’ refers to in that sentence.
+
+To help readers, avoid using this or that in ways where it's not clear what they refer to. Use either of the following tactics to clarify ambiguous uses of this and that:
+* Replace this or that with the appropriate noun.
+* Place a noun immediately after this or that.
+
+Substitute or add explicit terms as needed, as in the following rewrites of the example's second sentence, for e.g.:
+“This user ID lets users authenticate.
+The process of configuring permissions lets users authenticate.
+The combination of permissions and a user ID lets users authenticate.”
+
+
+Active Voice
+https://developers.google.com/tech-writing/one/active-voice
+Use the active voice.
+Active Voice Sentence = actor + verb + target
+A passive voice sentence reverses the formula. That is, a passive voice sentence typically follows the following formula:
+Passive Voice Sentence = target + verb + actor
+
+
+
+Clear Sentences
+In technical writing, clarity takes precedence over all other rules.
+
+In the best-case scenario, you may simply delete There is or There are (and possibly another word or two later in the sentence). For example, consider the following sentence:
+	“There is a variable called met_trick that stores the current accuracy.”
+Removing There is replaces the generic subject with a better subject. For example, either of the following sentences is clearer than the original:
+	“A variable named met_trick stores the current accuracy.”
+	“The met_trick variable stores the current accuracy.”
+
+
+You can sometimes repair a There is or There are sentence by moving the true subject and true verb from the end of the sentence to the beginning. For example, notice that the pronoun you appears towards the end of the following sentence:
+	“There are two disturbing facts about Perl you should know.”
+Replacing There are with You strengthens the sentence:
+	“You should know two disturbing facts about Perl.”
+
+
+Refactor amorphous adverbs and adjectives into objective numerical information. For example:
+	“Setting this flag makes the application run screamingly fast.”
+becomes
+	“Setting this flag makes the application run 225-250% faster.”
+
+
+
+
+Focus each sentence on a single idea
+Focus each sentence on a single idea, thought, or concept. Just as statements in a program execute a single task, sentences should execute a single idea. For example, the following very long sentence contains multiple thoughts:
+	“The late 1950s was a key era for programming languages because IBM introduced Fortran in 1957 and John McCarthy introduced Lisp the 		following year, which gave programmers both an iterative way of solving problems and a recursive way.”
+Breaking the long sentence into a succession of single-idea sentences yields the following result:
+	“The late 1950s was a key era for programming languages. IBM introduced Fortran in 1957. John McCarthy invented Lisp the following year. 		Consequently, by the late 1950s, programmers could solve problems iteratively or recursively.”
+
+
+
+
+Convert some long sentences to lists
+
+When you see the conjunction “or” in a long sentence, consider refactoring that sentence into a bulleted list. When you see an embedded list of items or tasks within a long sentence, consider refactoring that sentence into a bulleted or numbered list.
+
+E.g. 
+	“To get started with the Frambus app, you must first find the app at a suitable store, pay for it using a valid credit or debit card, download it, 		configure it by assigning a value for the Foo variable in the /etc/Frambus file, and then run it by saying the magic word twice.”
+becomes
+	“Take the following steps to get started with the Frambus app:
+    1. Find the app at a suitable store.
+    2. Pay for the app using a valid credit or debit card.
+    3. Download the app.
+    4. Configure the app by assigning a value for the Foo variable in the /etc/Frambus file.
+    5. Run the app by saying the magic word twice.”
+
+
+
+Eliminate or reduce extraneous words 
+“Frambus causes the production of bugs, which will be chronicled in logs by the LogGenerator method.”
+	becomes
+“Frambus produces bugs, which the LogGenerator method logs.”
+
+
+
+Lists and Tables
+Use a bulleted list for unordered items; use a numbered list for ordered items. In other words:
+* If you rearrange the items in a bulleted list, the list's meaning does not change.
+* If you rearrange the items in a numbered list, the list's meaning changes. 
+
+For example, we've made the following a bulleted list because rearranging its items does not change the list's meaning:
+Bash provides the following string manipulation mechanisms:
+* Deleting a substring from the start of a string
+* Reading an entire file into one string variable
+ The following list, by contrast, must be a numbered list because rearranging its items would change the list's meaning:
+	Take the following steps to reconfigure the server:
+    1. Stop the server.
+    2. Edit the configuration file.
+    3. Restart the server.
+
+ Keep list items parallel
+What separates effective lists from defective lists? Effective lists are parallel; defective lists tend to be nonparallel. All items in a parallel list look like they "belong" together. That is, all items in a parallel list match along the following parameters:
+* Grammar
+* Logical category
+* Capitalization
+* Punctuation
+
+
+Start numbered list items with imperative verbs
+Consider starting all items in a numbered list with an imperative verb. An imperative verb is a command, such as open or start. For example, notice how all of the items in the following parallel numbered list begin with an imperative verb:
+1. Download the Frambus app from Google Play or iTunes.
+2. Configure the Frambus app's settings.
+3. Start the Frambus app.
+
+Also:
+-Start each list item with a capital letter.
+-If a list item is a sentence, use appropriate sentence-ending punctuation. (The full stops)  
+Create useful tables
+Analytic minds tend to love tables. Given a page containing multiple paragraphs and a single table, engineers' eyes zoom towards the table.
+Consider the following guidelines when creating tables:
+* Label each column with a meaningful header. Don't make readers guess what each column holds.
+* Avoid putting too much text into a table cell. If a table cell holds more than two sentences, ask yourself whether that information belongs in some other format.
+* Although different columns can hold different types of data, strive for parallelism within individual columns. For instance, the cells within a particular table column should not be a mixture of numerical data and famous circus performers.
+
+
+Write a great opening sentence
+The opening sentence is the most important sentence of any paragraph. Good opening sentences establish the paragraph's central point. 
+
+Focus each paragraph on a single topic
+A paragraph should represent an independent unit of logic. Restrict each paragraph to the current topic. Don't describe what will happen in a future topic or what happened in a past topic. When revising, ruthlessly delete (or move to another paragraph) any sentence that doesn't directly relate to the current topic.
+
+
+Don't make paragraphs too long or too short
+-Readers generally welcome paragraphs containing three to five sentences, but will avoid paragraphs containing more than about seven sentences. When revising, consider dividing very long paragraphs into two separate paragraphs.
+
+-Conversely, don't make paragraphs too short. If your document contains plenty of one-sentence paragraphs, your organization is faulty. Seek ways to combine those one-sentence paragraphs into cohesive multi-sentence paragraphs or possibly into lists.
+
+
+Answer what, why, and how
+Good paragraphs answer the following three questions:
+1. What are you trying to tell your reader?
+2. Why is it important for the reader to know this?
+3. How should the reader use this knowledge? Alternatively, how should the reader know your point to be true?
+
+
+
+Audience
+https://developers.google.com/tech-writing/one/audience
+good documentation = knowledge and skills your audience needs to do a task − your audience's current knowledge and skills
+ In other words, make sure your document provides the information that your audience needs but doesn't already have.  
+* Define your audience.
+* Determine what your audience needs to learn.
+* Fit documentation to your audience.
+
+-Write down a list of everything your target audience needs to learn to accomplish the goals of the document. In some cases, the list should hold tasks that the target audience needs to perform.
+
+“Curse of knowledge”
+-As experts, it is easy to forget that novices don’t know what you already know. Novices might not understand explanations that make passing reference to subtle interactions and deep systems that the expert doesn’t stop to explain.
+
+
+
+Documents
+https://developers.google.com/tech-writing/one/documents
+
+ (State your document's scope) -A good document begins by defining its scope.  For example: “This document describes the design of Project Alpha.”
+
+-A better document additionally defines its non-scope—the topics not covered that the target audience might reasonably expect your document to cover.  For example: “This document does not describe the design for the related technology, Project Alpha2.”
+
+-Scope and non-scope statements benefit not only the reader but also the writer (you). While writing, if the contents of your document veer away from the scope statement (or venture into the non-scope statement), then you must either refocus your document or modify your scope statement. When reviewing your first draft, delete any sections that don't help satisfy the scope statement.
+
+
+(State your audience)
+-A good document explicitly specifies its audience. 
+-You might also specify any prerequisite knowledge or experience required
+
+
+-Summarize key points at the start
+
+Define your audience's needs
+Answering the following questions helps you determine what your document should contain:
+* Who is your target audience?
+* What is your target audience's goal? Why are they reading this document?
+* What do your readers already know before they read your document?
+* What should your readers know or be able to do after they read your document?
+
+
+
+
+Punctuation
+
+-As a guideline, insert a comma wherever a reader would naturally pause somewhere within a sentence. 
+
+
+-Full stops separate distinct thoughts; a semicolon unites HIGHLY RELATED thoughts.   For example, notice how the semicolon in the following sentence unites the first and second thoughts:
+	“Rerun Frambus after updating your configuration file; don't rerun Frambus after updating existing source code.”
+ Before using a semicolon, ask yourself whether the sentence would still make sense if you flipped the thoughts to opposite sides of the semicolon. 
+
+For example, reversing the earlier example still yields a valid sentence:
+	“Don't rerun Frambus after updating existing source code; rerun Frambus after updating your configuration file.”
+The thoughts preceding and following the semicolon must each be grammatically complete sentences.
+
+
+Use parentheses to hold minor points and digressions. Parentheses inform readers that the enclosed text isn't critical. Because the enclosed text isn't critical, some editors feel that text that deserves parentheses doesn't deserve to be in the document. As a compromise, keep parentheses to a minimum in technical writing.
+
+If a pair of parentheses holds an entire sentence, the period goes inside the closing parenthesis.
+For e.g.
+	(Incidentally, Protocol Buffers make great birthday gifts.)
+
+If a pair of parentheses ends a sentence but does not hold the entire sentence, the period goes just outside the closing parenthesis.
+For e.g.
+	Binary mode relies on the more compact native form (described later in this document).
+
+
+
+Markdown
+Markdown is a lightweight markup language that many technical professionals use to create and edit technical documents.
+(Very similar to Reddit text)
+
+Markdown tutorials
+https://developers.google.com/tech-writing/one/markdown
+ https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+
