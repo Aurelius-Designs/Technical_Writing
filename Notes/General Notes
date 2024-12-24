@@ -1,0 +1,150 @@
+ Summary
+Let's do a brief overview of what we covered:
+* Try to be consistent through your writing
+* Avoid ambiguous pronouns
+* Prefer active voice
+* Be succinct.
+* Focus each sentence on one idea
+* Make use of lists
+* Focus on deleting unnecessary words
+* Don't use complex English or jargon
+* Keep lists parallel
+* Open paragraphs with an overview of what you're covering
+* Scope your document to your audience.
+* Establish your key points at the start of your writing.
+  ——— 
+
+* Nouns are used to name something such as Mrs Kay, Eiffel Tower or manager.
+* Pronouns are used instead of a noun such as I, you, we, them, he, or it.
+* Adjectives are used to describe nouns such as friendly Mrs Kay, the rusty Eiffel Tower or the good manager.
+* Verbs are doing words such as fight, run, type and eat.
+* Adverbs describe verbs such as strongly fight, cowardly run, aggressively type and timidly eat.
+
+
+
+-if it's unclear to what you're referring, use the noun instead of the pronoun. This or that are especially prone to this issue. Make sure whenever you use these words it's clear what is being discussed.
+
+
+-No one understands what walking around the porridge, chewing the fat, or inflating a cow means intuitively. Just say exactly what you mean, and try to keep your analogies simple and idiom free.
+
+
+-Shorter sentences also encourage readers to continue reading. How intimidating is one huge paragraph? It can sometimes intimidate readers, and some readers will just bounce straight off your page when they see huge 1,000 word paragraphs.
+
+
+-As you go through your writing, "there is" and "there are" can almost always be removed to more briefly express your point.
+Both terms are generally very generic and bore readers. Rework the sentence. Here are some examples:
+* There is a lot of overlap between software and hardware. Becomes
+* Software and hardware have a lot of overlap.
+
+
+-Be precise and quantifiable
+“Running the code in production mode will result in a 225% performance gain.”
+As opposed to:
+“Running the code in production mode makes the code run screamingly fast.”
+
+
+When you have a long sentence with lots of elements in it, you should split it up into a list. For example, if you're listing the benefits of a particular technology, you could say, X is a great choice because:
+* It's lightweight
+* It's fast
+* It's easy to use
+
+
+Use a numbered list, where the order matters, like say a recipe. Try to start each number with a commanding verb to reinforce the step by step instructions of the list, too:
+1. Turn on the oven.
+2. Bake the cake.
+Bulleted lists work well for everything else.
+
+
+Use the active voice
+* The subject is the one doing the thing.
+* The object is the thing being done to.
+* The verb is what is being done to the object by the subject.
+All of the above examples use active voice because the subject does the verb to the object. 
+
+
+
+
+Paragraphs should have a clear opening sentence to explain the paragraph's central point.
+You also should clearly answer:
+* What are you trying to convey?
+* Why is it important?
+* How should the reader use this knowledge?
+Let's have an example that does all the above:
+-The garp() function returns the delta between a dataset's mean and median. Many people believe unquestioningly that a mean always holds the truth. However, a mean is easily influenced by a few very large or very small data points.
+-Call garp() to help determine whether a few very large or very small data points are influencing the mean too much. A relatively small garp() value suggests that the mean is more meaningful than when the garp() value is relatively high.
+
+
+
+Where possible, remove all jargon and acronyms and briefly explain what something is.
+Try to make your writing as plain and simple as possible, still giving due credit to the complexity of what you're discussing (don't oversimplify!). If your writing is difficult or complex to understand, it won't help anyone.
+Don't assume knowledge either. If you want to talk about something, either explain it, or try to link to a good resource on it. Some refer to this as the Curse of Knowledge.
+Assume your reader knows less than you, so experienced readers can just skim the parts they already know, and newbies don't get lost.
+
+
+
+English is the dominant language for technical writing, but English is not always the first language of the reader. Try to stick to commonly used, simple English words.
+You don't have to discuss the exuberance you find from polysyllabic words, flaunting your magniloquence.
+
+
+When you write something, briefly explain at the beginning what you're going to cover. This can help people understand exactly what you're discussing before reading more.
+
+
+Compose your document to best suit the audience. For example, if you're explaining your company's architecture to a wider audience, you will have to explain things more thoroughly as there's less shared knowledge there than with your colleagues.
+Sometime you may not even be writing for technical people, and you'll need to explain things in a less-complex way to aid their understanding.
+ ———————————————   Coursera Course
+
+https://www.coursera.org/learn/technical-writing-introduction/lecture/MHjDZ/what-you-will-learn-in-this-lesson
+
+
+Diagrams, breakdown complex systems, infographics summarize key topics and videos provide step by step demonstration. This dynamic blend of content ensures that readers can absorb and retain information efficiently.
+
+
+“Technical writing is all about clear communication. Think of it as providing a GPS for information. Ensuring that the reader reaches their destination or of understanding. Think of user manuals, guides, technical reports. The language here needs to be very concise, neutral, and laser focused on facts. Accuracy and precision are paramount.”
+
+
+“A well structured document or presentation contains an introduction, a body, and a conclusion. Within these sections, headings and subheadings act as sign posts. Bullet points, numbered lists can further compartmentalized information and tables can efficiently present data sets. The aim is to facilitate an effortless journey through your content, with each section naturally leading to the next.”
+
+
+Graphs can be an excellent tool for showing trends over time. Pie charts for displaying parts as a whole, flow charts for processes. The key here is alignment. Each visual should align and reinforce the textual content it accompanies.
+
+
+Surveys and questionnaires. These instruments, enable the collection of quantitative data offering a statistical perspective on audience preferences and behaviors. For example, customer satisfaction surveys can provide invaluable data, on what aspects of a service or product needs improvement. You can even look at interviews. Conducting interviews or focus group sessions, can yield quantitative and qualitative insights into audience attitudes, expectations and potential objections, thereby allowing for a more nuanced content strategy.
+
+
+Tailor content to your audience. This determines how technical it should be and which info is relevant.
+
+
+(Planning and research)
+-Defining the scope it will involve setting the boundaries of your document. This will help you in focusing efforts and ensure that you don't stray off topic. 
+-Knowing your audience allows you to tailor the content, which will ensure it is both accessible and relevant to them. 
+-Setting clear objectives provides a roadmap for your document, guiding what information to include and what to omit.
+
+Defining your target audience: Are they developers, end users, administrators, then go on to decide the topics to cover based on their needs. The research component would involve consulting product specifications, interview, subject matter experts and review existing documentation to ensure accuracy and completeness. For a technical manual of a new software API, planning would involve outlining sections such as introduction, how to install the software, what are the possible API endpoints? Also a possible inclusion of troubleshooting. Research should include gathering technical specifications, sample code and common use cases. 
+
+
+(Drafting, revising and rewriting)
+-Drafting involves creating an initial version with all the necessary info and structure
+-Revising focuses on refining this draft through editing, re-organising and updating
+
+-Revising is not merely proofreading, it provides substantive changes like editing for clarity, reorganizing sections, and updating information.
+Take an example, when drafting software documentation, you might start with a basic structure and placeholders for code samples. The revising stage would involve adding those code samples and clarifying any technical jargon.
+
+
+(Proofreading, Finalising and Publishing)
+
+- It is advisable to read the document multiple times, each time focusing on a different element, such as content language or layout. You should also try and have peer reviews. Having a second pair of eyes review the content can catch errors you may have missed. You can also try and look at automated tools such as Grammarly
+
+-Docs for a software release should be meticulously reviewed for language consistency, technical accuracy and clarity. This often involves multiple stakeholders, including developers and technical writers. Once you are at a finalisation stage, you will be involved in cross verification with the product change log to ensure all the listed features, bug fixes and acknowledgments are accurate and up to date. 
+
+
+(Continuous Feedback and Document Updates)
+
+-Continuous feedback allows for real-time adjustments, which is essential in dynamic environments like DevOps, software engineering, or products that release updates very frequently, where document often requires frequent updates
+
+-There are multiple avenues where you can try collecting feedback. It ranges from user surveys to data analytics, and even expert consultations. Do make sure that you are still audience-centric. The method that you will choose should align with your target audience and the type of document that you are dealing with
+
+-Now let's talk about the revision process. First of all, try and understand what is the scope of change. Based on the feedback or the necessity, the scope of revisions can vary from minor tweaks to major overhauls. What changes in the documentation itself? It is crucial to document any changes made and make this information readily available to the users. As an example, tools that manage document versioning can be invaluable in keeping track of changes and ensuring that users always have access to the most current information.
+
+-From a change log perspective, it's good practice to maintain a recent changes section in the knowledge base. This can inform users about the updates and assures them that the resource is actively maintained
+
+
