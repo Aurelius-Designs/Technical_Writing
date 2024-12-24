@@ -1,0 +1,151 @@
+Google Technical Writing Part 2
+
+
+Summary:
+
+* Adopt a style guide.
+* Think like your audience.
+* Read documents out loud (to yourself).
+* Return to documents well after you've written the draft.
+* Find a good peer editor.
+* Outline a document. Alternatively, write free form and then organize.
+* Introduce a document's scope and any prerequisites.
+* Prefer task-based headings.
+* Disclose information progressively (in some situations).
+* Consider writing the caption before creating the illustration.
+* Constrain the amount of information in a single drawing.
+* Focus the reader's attention on the relevant part of a picture or diagram by describing the takeaway in the caption or by adding a visual cue to the picture.
+* Create concise sample code that is easy to understand.
+* Keep code comments short, but prefer clarity over brevity.
+* Avoid writing comments about obvious code.
+* Focus your commenting energy on anything non-intuitive in the code.
+* Provide not only examples but also anti-examples.
+* Provide code samples that demonstrate a range of complexity.
+* Make a practice of continuous revision.
+* Provide different documentation types for different categories of users.
+* Compare and contrast with something that readers are already familiar with.
+* In tutorials, reinforce concepts with examples.
+* In tutorials, note problems that readers may encounter.
+
+
+————————————
+
+https://developers.google.com/tech-writing/two
+
+
+Google Style guides:
+https://developers.google.com/style/highlights
+https://developers.google.com/style
+https://developers.google.com/style/code-in-text
+
+
+Think like your audience 
+Who is your audience? Step back and try to read your draft from their point of view. Make sure the purpose of your document is clear, and provide definitions for any terms or concepts that might be unfamiliar to your readers
+
+
+Introduce a document
+If readers of your documentation can't find relevance in the subject, they are likely to ignore it. To set the ground rules for your users, we recommend providing an introduction that includes the following information:
+* What the document covers.
+* What prior knowledge you expect readers to have.
+* What the document doesn't cover. 
+Remember that you want to keep your documentation easy to maintain, so don't try to cover everything in the introduction.
+ The following paragraph demonstrates the ideas from the preceding list as an overview for a hypothetical document publishing platform called Froobus:
+	“This document explains how to publish Markdown files using the Froobus system.
+	Froobus is a publishing system that runs on a Linux server and converts
+	Markdown files into HTML pages. This document is intended for people who are
+	familiar with Markdown syntax. To learn about the syntax, see the Markdown
+	reference. You also need to be comfortable running simple commands in a
+	Linux terminal. This document doesn't include information about installing or
+	configuring a Froobus publishing system. For information on installing Froobus,
+	see Getting started.”
+
+ 
+Add navigation
+Providing navigation and signposting for your readers ensures they can find what they are looking for and the information they need to get unstuck.
+Clear navigation includes:
+* introduction and summary sections
+* a clear, logical development of the subject
+* headings and subheadings that help users understand the subject
+* a table of contents menu that shows users where they are in the document
+* links to related resources or more in-depth information
+* links to what to learn next
+
+  
+Disclose information progressively
+The following techniques can help you incorporate progressive disclosure in your documents:
+* Where possible, try introducing new terminology and concepts near the instructions that rely on them.
+* Break up large walls of text. To avoid multiple large paragraphs on a single page, aim to introduce tables, diagrams, lists, and headings where appropriate.
+* Break up large series of steps. If you have a particularly long list of complicated steps, try to re-arrange them into shorter lists that explain how to complete sub-tasks.
+* Start with simple examples and instructions, and add progressively more interesting and complicated techniques. For example, in a tutorial for creating forms, start by explaining how to handle text responses, and then introduce other techniques to handle multiple choice, images, and other response types.
+
+
+
+Write the caption first 
+It is often helpful to write the caption before creating the illustration. Then, create the illustration that best represents the caption. This process helps you to check that the illustration matches the goal.
+Good captions have the following characteristics:
+* They are brief. Typically, a caption is just a few words.
+* They explain the takeaway. After viewing this graphic, what should the reader remember?
+* They focus the reader's attention. Focus is particularly important when a photograph or diagram contains a lot of detail.
+
+According to research by Sung and Mayer (2012), providing any graphics—good or bad—makes readers like the document more; however, only instructive graphics help readers learn.
+
+
+Just as you avoid overly-long sentences, strive to avoid visual run-ons. As a rule of thumb, don't put more than one paragraph's worth of information in a single diagram. (An alternative rule of thumb is to avoid illustrations that require more than five bulleted items to explain.) 
+
+The trick to reducing visual clutter into something coherent and helpful is to organize complex systems into subsystems, like those shown in the following figure, for e.g.
+https://developers.google.com/static/tech-writing/two/images/subsystems.svg
+ 
+Illustrating is re-illustrating
+As with writing, the first draft of an illustration is seldom good enough. Revise your illustrations to clarify the content. As you revise, ask yourself the following questions:
+* How can I simplify the illustration?
+* Should I split this illustration into two or more simpler illustrations?
+* Is the text in the illustration easy to read? Does the text contrast sufficiently with its background?
+* What's the takeaway?
+
+Can use Google Drawing to create illustrations.
+
+
+Creating sample code 
+Sample code should meet the following criteria:
+* Build without errors.
+* Perform the task it claims to perform.
+* Be as production-ready as possible. For example, the code shouldn't contain any security vulnerabilities.
+* Follow language-specific conventions.
+
+-If there is more than one way to code the task, code it in the manner that your team has decided is best. If your team hasn't considered the pros and cons of each approach, take time to do so.
+
+-Always test your sample code. Over time, systems change and your sample code may break. Be prepared to test and maintain sample code as you would any other code.
+
+Running sample code
+Good documents explain how to run sample code.  For example, your document might need to tell users to perform activities such as the following prior to running the samples:
+* Install a certain library.
+* Adjust the values assigned to certain environment variables.
+* Adjust something in the integrated development environment (IDE).
+
+Writers should consider describing the expected output or result of sample code, especially for sample code that is difficult to run.
+
+
+
+Concise
+Sample code should be short, including only essential components. 
+Give the programmer a brief snippet, not the entire Linux source tree. Irrelevant code can distract and confuse your audience.  That said, never use bad practices to shorten your code; always prefer correctness over conciseness.
+
+-Pick descriptive class, method, and variable names.
+-Avoid confusing your readers with hard-to-decipher programming tricks.
+-Avoid deeply nested code.
+
+
+
+Commented
+* Keep comments short, but always prefer clarity over brevity.
+* Avoid writing comments about obvious code, but remember that what is obvious to you (the expert) might not be obvious to newcomers.
+* Focus your commenting energy on anything non-intuitive in the code.
+* When your readers are very experienced with a technology, don't explain what the code is doing, explain why the code is doing it.
+
+Should you place descriptions of code inside code comments or in text (paragraphs or lists) outside of the sample code?  Note that readers who copy-and-paste a snippet gather not only the code but also any embedded comments. So, put any descriptions that belong in the pasted code into the code comments.
+
+
+
+-After mastering the basics, engineers want more complex programs. A good set of sample code provides a healthy range of simple, moderate, and complex sample programs.
+
+
