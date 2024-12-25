@@ -14,6 +14,7 @@ https://gitlab.com/tgdp/templates
 Template for release notes: https://www.youtube.com/watch?v=X_gB2GSNNP4&list=PL28eq_nhJTOcgWoyl_aqEQ3GDhp6LXbH1&t=1250s
 
 Templates for different docs: https://klariti.com/technical-writing-templates/
+
  
 Spotify has very good API documentation: https://developer.spotify.com/documentation/web-api/reference/get-an-artist
 
@@ -50,4 +51,7 @@ https://noteplan.co/templates/technical-design-document-template
 https://www.notion.com/templates/technical-documentation
 
 
+--------------------------
 
+
+How to Document Your Web API Using Swagger:     https://youtu.be/IYWOWxw7dys
