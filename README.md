@@ -51,6 +51,9 @@ https://noteplan.co/templates/technical-design-document-template
 https://www.notion.com/templates/technical-documentation
 
 
+https://boffin.education/technical-writing-templates/
+
+
 --------------------------
 
 
