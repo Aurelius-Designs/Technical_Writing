@@ -56,5 +56,11 @@ https://boffin.education/technical-writing-templates/
 
 --------------------------
 
+Markdown Guides
+
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet
+
 
 How to Document Your Web API Using Swagger:     https://youtu.be/IYWOWxw7dys
